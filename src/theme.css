@@ -1,0 +1,49 @@
+html.light {
+  --clr-gray: rgb(35, 35, 37);
+  --clr-gray-rgb: 35, 35, 37;
+  --clr-white: rgb(255, 255, 255);
+  --clr-white-rgb: 255, 255, 255;
+  --clr-background: rgb(255, 255, 255);
+  --clr-black: rgb(0, 0, 0);
+  --clr-black-rgb: 0, 0, 0;
+  --clr-title: rgb(0, 0, 0);
+  --clr-title-rgb: 0, 0, 0;
+  --clr-orange: rgb(255, 202, 64);
+  --clr-orange-rgb: 255, 202, 64;
+  --clr-red: rgb(227, 73, 73);
+  --clr-red-rgb: 227, 73, 73;
+  --clr-green: rgb(91, 194, 28);
+  --clr-green-rgb: 91, 194, 28;
+  --clr-yellow: rgb(255, 230, 0);
+  --clr-yellow-rgb: 255, 230, 0;
+  --clr-violet: rgb(183, 40, 255);
+  --clr-violet-rgb: 183, 40, 255;
+  --clr-pink: rgb(229, 58, 152);
+  --clr-pink-rgb: 229, 58, 152;
+  --clr-light-pink: rgb(234, 213, 234);
+}
+
+html.dark {
+  --clr-gray: rgb(0, 0, 0);
+  --clr-gray-rgb: 0, 0, 0;
+  --clr-white: rgb(255, 255, 255);
+  --clr-white-rgb: 255, 255, 255;
+  --clr-background: #282828;
+  --clr-black: rgb(0, 0, 0);
+  --clr-black-rgb: 0, 0, 0;
+  --clr-title: rgb(255, 255, 255);
+  --clr-title-rgb: 255, 255, 255;
+  --clr-orange: rgb(255, 202, 64);
+  --clr-orange-rgb: 255, 202, 64;
+  --clr-red: rgb(227, 73, 73);
+  --clr-red-rgb: 227, 73, 73;
+  --clr-green: rgb(50, 106, 15);
+  --clr-green-rgb: 50, 106, 15;
+  --clr-yellow: rgb(255, 230, 0);
+  --clr-yellow-rgb: 255, 230, 0;
+  --clr-violet: rgb(69, 17, 78);
+  --clr-violet-rgb: 69, 17, 78;
+  --clr-pink: rgb(139, 34, 105);
+  --clr-pink-rgb: 139, 34, 105;
+  --clr-light-pink: rgb(173, 161, 173);
+}

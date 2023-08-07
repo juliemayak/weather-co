@@ -1,0 +1,30 @@
+.list {
+	margin-bottom: 30px;
+
+	&__title {
+		font-size: 24px;
+		font-weight: normal;
+		margin-bottom: 20px;
+	}
+
+	&__content {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+
+		&>div {
+			width: 100%;
+		}
+
+		// max-height: 60vh;
+		// overflow: auto;
+
+		& .list-item {
+			margin-bottom: 15px;
+
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+}
