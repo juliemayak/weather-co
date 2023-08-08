@@ -13,11 +13,9 @@ module.exports = defineConfig({
 		name: "Weather Co.",
 		short_name: "Weather Co.",
 		display: "standalone",
-		start_url: ".",
 		themeColor: "#fffff",
 		msTileColor: "#fffff",
 		appleMobileWebAppCapable: "yes",
-		appleMobileWebAppStatusBarStyle: "white",
 		manifestOptions: {
 			name: "Weather Co.",
 			short_name: "Weather Co.",
