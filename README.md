@@ -1,5 +1,9 @@
 # WEATHER-CO
 
+## Demo Website
+
+> https://weather-co-widget.netlify.app/
+
 ## Launching the app as a dev.
 
 1. After downloading the repo, create an `.env` file in the root folder;
