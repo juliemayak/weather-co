@@ -7,8 +7,8 @@
 </template>
 
 <script>
-import SettingsIcon from "../svg/settings";
-import ThemeSwitcher from "../theme-switcher/ThemeSwitcher.vue";
+import SettingsIcon from "@/components/svg/settings";
+import ThemeSwitcher from "@/components/theme-switcher/ThemeSwitcher.vue";
 
 export default {
   name: "Header",

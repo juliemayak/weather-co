@@ -12,9 +12,9 @@
 
 <script>
 import { mapActions, mapGetters } from "vuex";
-import CloseButton from "../close-button/CloseButton";
-import SearchBar from "../search-bar/SearchBar";
-import List from "../list/List";
+import CloseButton from "@/components/close-button/CloseButton";
+import SearchBar from "@/components/search-bar/SearchBar";
+import List from "@/components/list/List";
 import scrollLocker from "@/modules/scroll-locker";
 
 export default {

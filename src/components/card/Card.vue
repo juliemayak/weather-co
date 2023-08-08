@@ -30,12 +30,12 @@
 </template>
 
 <script>
-import WeatherMixin from "../../mixins/weather";
-import ArrowUp from "../svg/high";
-import ArrowDown from "../svg/low";
-import CloudIcon from "../svg/indicators/cloud";
-import HumidityIcon from "../svg/indicators/humidity";
-import WindIcon from "../svg/indicators/wind";
+import WeatherMixin from "@/mixins/weather";
+import ArrowUp from "@/components/svg/high";
+import ArrowDown from "@/components/svg/low";
+import CloudIcon from "@/components/svg/indicators/cloud";
+import HumidityIcon from "@/components/svg/indicators/humidity";
+import WindIcon from "@/components/svg/indicators/wind";
 
 export default {
   name: "Card",

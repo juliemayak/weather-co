@@ -8,7 +8,7 @@
 
 <script>
 import { mapGetters } from "vuex";
-import Card from "../../components/card/Card";
+import Card from "@/components/card/Card";
 
 export default {
   name: "Dashboard",
@@ -19,7 +19,6 @@ export default {
 
   computed: {
     ...mapGetters({
-      weatherData: "GET_WEATHER_DATA",
       selectedLocations: "GET_SELECTED_LOCATIONS",
     }),
   },
