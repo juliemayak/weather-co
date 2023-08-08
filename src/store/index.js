@@ -6,7 +6,8 @@ import {
 	DELETE_WEATHER_DATA,
 	SET_IS_LOADING,
 	SET_IS_ERROR,
-	SET_IS_DUPLICATE
+	SET_IS_DUPLICATE,
+	SET_WEATHER_DATA
 } from "./mutation-types";
 
 export default createStore({
@@ -49,6 +50,10 @@ export default createStore({
 		},
 		[SET_IS_ERROR](state, value) {
 			state.isError = value;
+		},
+
+		[SET_WEATHER_DATA](state, data) {
+			state.weatherData = data;
 		},
 
 		[UPDATE_SELECTED_LOCATIONS](state) {

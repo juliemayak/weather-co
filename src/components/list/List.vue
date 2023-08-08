@@ -20,7 +20,12 @@
 
 <script>
 import { mapGetters } from "vuex";
-import { DELETE_WEATHER_DATA, SET_IS_DUPLICATE, SET_IS_ERROR } from "@/store/mutation-types";
+import {
+  DELETE_WEATHER_DATA,
+  SET_IS_DUPLICATE,
+  SET_IS_ERROR,
+  SET_WEATHER_DATA,
+} from "@/store/mutation-types";
 import ListItem from "@/components/list-item/ListItem.vue";
 
 import Draggable from "vuedraggable";
@@ -45,6 +50,7 @@ export default {
       locations.splice(moved.newIndex, 0, locations.splice(moved.oldIndex, 1)[0]);
 
       this.$store.dispatch("setLocalStorageLocations", locations);
+      this.$store.commit(SET_WEATHER_DATA, locations);
     },
 
     handleLocationRemoval(item) {
